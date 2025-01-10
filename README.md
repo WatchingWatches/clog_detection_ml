@@ -39,6 +39,12 @@ START_PRINT macro -> shell script -> wrapper_log_script.py -> log_data.py
 
 There needs to be a wrapper script in between, since klipper waits for the script to finish. The script runs locally on my rpi. It's also possible to run the script from a different machine, while being in the same network. When the print is done or aborted it stops automatically. Apart from a csv file with the data theres also a json file generated with the metadata, so you can understand where the data is from.
 
+## Visualization of print data
+
+![volumetric_flow_power](pictures\correlation_volumetric_flow_power.png)
+
+This is my acquired print data of over 50h. The correlation factor of the mean value is 0.38
+
 ## Development status:
 
 I currently wait until i have enough data to start training the machine learning algorithm. When i got the data of prints with a clog, i will label the data by myself, to train the model.
