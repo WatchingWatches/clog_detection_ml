@@ -41,7 +41,7 @@ There needs to be a wrapper script in between, since klipper waits for the scrip
 
 ## Visualization of print data
 
-![volumetric_flow_power](pictures\correlation_volumetric_flow_power.png)
+![volumetric_flow_power](pictures/correlation_volumetric_flow_power.png)
 
 This is my acquired print data of over 50h. The correlation factor of the mean value is 0.38
 
